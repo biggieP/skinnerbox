@@ -17,6 +17,10 @@ canv {
   position: relative;
   z-index: -1 !important;
 }
+div {
+  position: auto;
+  z-index: 1;
+}
 .box {
   max-width: 300px;
   text-align: center;
