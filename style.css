@@ -10,6 +10,7 @@ body {
   z-index: 1;
 }
 #canv {
+  display: block;
   position: center;
   z-index: -1 !important;
 }
