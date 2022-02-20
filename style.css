@@ -11,11 +11,15 @@ body {
 .box {
   max-width: 300px;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 .box > *, .minter > *{
   display: block;
   width: 100% !important;
   margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
 }
 .nice-select {
   margin-bottom: 10px;
