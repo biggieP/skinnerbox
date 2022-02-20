@@ -7,11 +7,11 @@ body {
   align-items: center;
   color: white;
   height: 100%;
-  background image: canv;
+  background: canvas;
   background-color: #000;
   z-index: 1;
 }
-canv {
+canvas {
   display: block;
   position: relative;
   z-index: -1 !important;
