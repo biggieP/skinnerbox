@@ -14,7 +14,7 @@ body {
 }
 #canv {
   display: block;
-  position: center;
+  position: relative;
   z-index: -1 !important;
 }
 .box {
