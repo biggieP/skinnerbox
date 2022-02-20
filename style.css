@@ -9,9 +9,7 @@ body {
   background-color: #000;
 }
 #canv {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: center;
   z-index: -1;
 }
 .box {
