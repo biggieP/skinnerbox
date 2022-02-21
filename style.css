@@ -30,7 +30,7 @@ div {
 .box {
   max-width: 300px;
   text-align: center;
-  position: center;
+  position: relative;
  
 }
 .box > *, .minter > *{
