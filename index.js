@@ -20,7 +20,7 @@ const rainDrops = [];
 for( let x = 0; x < columns; x++ ) {
 	rainDrops[x] = 1;
 }
-ctx.globalCompositeOperation = 'destination-over';
+
 
 const draw = () => {
 	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
