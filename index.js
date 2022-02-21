@@ -4,6 +4,8 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+ctx.globalCompositeOperation = 'destination-over';
+
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const nums = '0123456789';
