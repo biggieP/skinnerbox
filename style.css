@@ -11,10 +11,10 @@ body {
   background-color: #000;
   z-index: 1;
 }
-canvas {
-  display: block;
-  position: relative;
-  z-index: -1 !important;
+#canv {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 div {
   position: auto;
