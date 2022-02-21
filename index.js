@@ -4,7 +4,7 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-ctx.globalCompositeOperation = 'destination-over';
+
 
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -20,6 +20,7 @@ const rainDrops = [];
 for( let x = 0; x < columns; x++ ) {
 	rainDrops[x] = 1;
 }
+ctx.globalCompositeOperation = 'destination-over';
 
 const draw = () => {
 	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
